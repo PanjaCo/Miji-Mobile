@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF3217621CA82A3C001989F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3217611CA82A3C001989F8 /* AppDelegate.swift */; };
+		BF3217641CA82A3C001989F8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3217631CA82A3C001989F8 /* FirstViewController.swift */; };
+		BF3217661CA82A3C001989F8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3217651CA82A3C001989F8 /* SecondViewController.swift */; };
+		BF3217691CA82A3D001989F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF3217671CA82A3D001989F8 /* Main.storyboard */; };
+		BF32176B1CA82A3D001989F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF32176A1CA82A3D001989F8 /* Assets.xcassets */; };
+		BF32176E1CA82A3D001989F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF32176C1CA82A3D001989F8 /* LaunchScreen.storyboard */; };
+		BF3217791CA82A3D001989F8 /* Miji_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3217781CA82A3D001989F8 /* Miji_MobileTests.swift */; };
+		BF3217841CA82A3D001989F8 /* Miji_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3217831CA82A3D001989F8 /* Miji_MobileUITests.swift */; };
+		BF3217921CA83064001989F8 /* ShareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3217911CA83064001989F8 /* ShareData.swift */; };
+		BF385F331CA8EC8E002A99C8 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF385F321CA8EC8E002A99C8 /* Entitlements.plist */; };
+		BFD4B3FD1CA9D004003FDCDF /* Red&BlackHive.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD4B3FC1CA9D004003FDCDF /* Red&BlackHive.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF3217751CA82A3D001989F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3217561CA82A3C001989F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF32175D1CA82A3C001989F8;
+			remoteInfo = "Miji-Mobile";
+		};
+		BF3217801CA82A3D001989F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF3217561CA82A3C001989F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF32175D1CA82A3C001989F8;
+			remoteInfo = "Miji-Mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF32175E1CA82A3C001989F8 /* Miji-Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Miji-Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3217611CA82A3C001989F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF3217631CA82A3C001989F8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BF3217651CA82A3C001989F8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BF3217681CA82A3D001989F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF32176A1CA82A3D001989F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF32176D1CA82A3D001989F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF32176F1CA82A3D001989F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3217741CA82A3D001989F8 /* Miji-MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miji-MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3217781CA82A3D001989F8 /* Miji_MobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miji_MobileTests.swift; sourceTree = "<group>"; };
+		BF32177A1CA82A3D001989F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF32177F1CA82A3D001989F8 /* Miji-MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miji-MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3217831CA82A3D001989F8 /* Miji_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miji_MobileUITests.swift; sourceTree = "<group>"; };
+		BF3217851CA82A3D001989F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF3217911CA83064001989F8 /* ShareData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareData.swift; sourceTree = "<group>"; };
+		BF385F321CA8EC8E002A99C8 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		BFD4B3FC1CA9D004003FDCDF /* Red&BlackHive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Red&BlackHive.png"; path = "../../../../Wallpapers/Red&BlackHive.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF32175B1CA82A3C001989F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3217711CA82A3D001989F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF32177C1CA82A3D001989F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF3217551CA82A3C001989F8 = {
+			isa = PBXGroup;
+			children = (
+				BF385F321CA8EC8E002A99C8 /* Entitlements.plist */,
+				BF3217601CA82A3C001989F8 /* Miji-Mobile */,
+				BF3217771CA82A3D001989F8 /* Miji-MobileTests */,
+				BF3217821CA82A3D001989F8 /* Miji-MobileUITests */,
+				BF32175F1CA82A3C001989F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF32175F1CA82A3C001989F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF32175E1CA82A3C001989F8 /* Miji-Mobile.app */,
+				BF3217741CA82A3D001989F8 /* Miji-MobileTests.xctest */,
+				BF32177F1CA82A3D001989F8 /* Miji-MobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF3217601CA82A3C001989F8 /* Miji-Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				BF3217611CA82A3C001989F8 /* AppDelegate.swift */,
+				BF3217631CA82A3C001989F8 /* FirstViewController.swift */,
+				BF3217911CA83064001989F8 /* ShareData.swift */,
+				BF3217651CA82A3C001989F8 /* SecondViewController.swift */,
+				BF3217671CA82A3D001989F8 /* Main.storyboard */,
+				BF32176A1CA82A3D001989F8 /* Assets.xcassets */,
+				BFD4B3FC1CA9D004003FDCDF /* Red&BlackHive.png */,
+				BF32176C1CA82A3D001989F8 /* LaunchScreen.storyboard */,
+				BF32176F1CA82A3D001989F8 /* Info.plist */,
+			);
+			path = "Miji-Mobile";
+			sourceTree = "<group>";
+		};
+		BF3217771CA82A3D001989F8 /* Miji-MobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3217781CA82A3D001989F8 /* Miji_MobileTests.swift */,
+				BF32177A1CA82A3D001989F8 /* Info.plist */,
+			);
+			path = "Miji-MobileTests";
+			sourceTree = "<group>";
+		};
+		BF3217821CA82A3D001989F8 /* Miji-MobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF3217831CA82A3D001989F8 /* Miji_MobileUITests.swift */,
+				BF3217851CA82A3D001989F8 /* Info.plist */,
+			);
+			path = "Miji-MobileUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF32175D1CA82A3C001989F8 /* Miji-Mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF3217881CA82A3D001989F8 /* Build configuration list for PBXNativeTarget "Miji-Mobile" */;
+			buildPhases = (
+				BF32175A1CA82A3C001989F8 /* Sources */,
+				BF32175B1CA82A3C001989F8 /* Frameworks */,
+				BF32175C1CA82A3C001989F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Miji-Mobile";
+			productName = "Miji-Mobile";
+			productReference = BF32175E1CA82A3C001989F8 /* Miji-Mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF3217731CA82A3D001989F8 /* Miji-MobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF32178B1CA82A3D001989F8 /* Build configuration list for PBXNativeTarget "Miji-MobileTests" */;
+			buildPhases = (
+				BF3217701CA82A3D001989F8 /* Sources */,
+				BF3217711CA82A3D001989F8 /* Frameworks */,
+				BF3217721CA82A3D001989F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3217761CA82A3D001989F8 /* PBXTargetDependency */,
+			);
+			name = "Miji-MobileTests";
+			productName = "Miji-MobileTests";
+			productReference = BF3217741CA82A3D001989F8 /* Miji-MobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF32177E1CA82A3D001989F8 /* Miji-MobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF32178E1CA82A3D001989F8 /* Build configuration list for PBXNativeTarget "Miji-MobileUITests" */;
+			buildPhases = (
+				BF32177B1CA82A3D001989F8 /* Sources */,
+				BF32177C1CA82A3D001989F8 /* Frameworks */,
+				BF32177D1CA82A3D001989F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF3217811CA82A3D001989F8 /* PBXTargetDependency */,
+			);
+			name = "Miji-MobileUITests";
+			productName = "Miji-MobileUITests";
+			productReference = BF32177F1CA82A3D001989F8 /* Miji-MobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF3217561CA82A3C001989F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Panja;
+				TargetAttributes = {
+					BF32175D1CA82A3C001989F8 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = PB48Q4347J;
+					};
+					BF3217731CA82A3D001989F8 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J53YREEDJC;
+						TestTargetID = BF32175D1CA82A3C001989F8;
+					};
+					BF32177E1CA82A3D001989F8 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J53YREEDJC;
+						TestTargetID = BF32175D1CA82A3C001989F8;
+					};
+				};
+			};
+			buildConfigurationList = BF3217591CA82A3C001989F8 /* Build configuration list for PBXProject "Miji-Mobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF3217551CA82A3C001989F8;
+			productRefGroup = BF32175F1CA82A3C001989F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF32175D1CA82A3C001989F8 /* Miji-Mobile */,
+				BF3217731CA82A3D001989F8 /* Miji-MobileTests */,
+				BF32177E1CA82A3D001989F8 /* Miji-MobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF32175C1CA82A3C001989F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF385F331CA8EC8E002A99C8 /* Entitlements.plist in Resources */,
+				BF32176E1CA82A3D001989F8 /* LaunchScreen.storyboard in Resources */,
+				BF32176B1CA82A3D001989F8 /* Assets.xcassets in Resources */,
+				BF3217691CA82A3D001989F8 /* Main.storyboard in Resources */,
+				BFD4B3FD1CA9D004003FDCDF /* Red&BlackHive.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3217721CA82A3D001989F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF32177D1CA82A3D001989F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF32175A1CA82A3C001989F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3217661CA82A3C001989F8 /* SecondViewController.swift in Sources */,
+				BF3217621CA82A3C001989F8 /* AppDelegate.swift in Sources */,
+				BF3217641CA82A3C001989F8 /* FirstViewController.swift in Sources */,
+				BF3217921CA83064001989F8 /* ShareData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF3217701CA82A3D001989F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3217791CA82A3D001989F8 /* Miji_MobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF32177B1CA82A3D001989F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3217841CA82A3D001989F8 /* Miji_MobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF3217761CA82A3D001989F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF32175D1CA82A3C001989F8 /* Miji-Mobile */;
+			targetProxy = BF3217751CA82A3D001989F8 /* PBXContainerItemProxy */;
+		};
+		BF3217811CA82A3D001989F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF32175D1CA82A3C001989F8 /* Miji-Mobile */;
+			targetProxy = BF3217801CA82A3D001989F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF3217671CA82A3D001989F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF3217681CA82A3D001989F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF32176C1CA82A3D001989F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF32176D1CA82A3D001989F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF3217861CA82A3D001989F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF3217871CA82A3D001989F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF3217891CA82A3D001989F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fhenneman@comcast.net (8HL6F5YKPH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Miji-Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.Miji-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		BF32178A1CA82A3D001989F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer: fhenneman@comcast.net (8HL6F5YKPH)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Miji-Mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.Miji-Mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		BF32178C1CA82A3D001989F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Miji-MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.Miji-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miji-Mobile.app/Miji-Mobile";
+			};
+			name = Debug;
+		};
+		BF32178D1CA82A3D001989F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Miji-MobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.Miji-MobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miji-Mobile.app/Miji-Mobile";
+			};
+			name = Release;
+		};
+		BF32178F1CA82A3D001989F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Miji-MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.Miji-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Miji-Mobile";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BF3217901CA82A3D001989F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Miji-MobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Panja-Co.Miji-MobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Miji-Mobile";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF3217591CA82A3C001989F8 /* Build configuration list for PBXProject "Miji-Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3217861CA82A3D001989F8 /* Debug */,
+				BF3217871CA82A3D001989F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF3217881CA82A3D001989F8 /* Build configuration list for PBXNativeTarget "Miji-Mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF3217891CA82A3D001989F8 /* Debug */,
+				BF32178A1CA82A3D001989F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF32178B1CA82A3D001989F8 /* Build configuration list for PBXNativeTarget "Miji-MobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF32178C1CA82A3D001989F8 /* Debug */,
+				BF32178D1CA82A3D001989F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF32178E1CA82A3D001989F8 /* Build configuration list for PBXNativeTarget "Miji-MobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF32178F1CA82A3D001989F8 /* Debug */,
+				BF3217901CA82A3D001989F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF3217561CA82A3C001989F8 /* Project object */;
+}
